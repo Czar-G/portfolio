@@ -1,0 +1,115 @@
+/*TODO EL CUERPO EN GENERAL*/
+:root{
+    --background-body:#fff;
+    --background-nav-titulo:#fff;
+    --background-nav-list:#fff;
+    --background-nav-login: chartreuse;
+}
+
+body{
+    background-color: var(--background-body);
+}
+
+/*NAV GENERAL*/
+
+nav{
+    display: inline-flex;
+    width: 100%;
+    height: 4vw;
+    
+}
+/* FIN NAV GENERAL*/
+
+/*NAV ITEMS {TITULO, LIST Y LOGIN} GENERAL*/
+nav .titulo{
+    background-color: var(--background-nav-titulo);
+    display: flex;
+    width: 30%;
+    height: 100%;
+    align-items: center;
+    /*align-self: center;*/
+    border-radius: 5px;
+}
+nav .titulo span {
+    padding: 0 5%;
+    font-size:x-large;
+}
+nav .titulo img{
+    width:4vw ;
+    height: 90%;
+    border-radius: 50%;
+    border-bottom-left-radius: 0px;
+    padding: 0 1%;
+
+}
+
+nav .list{
+    background-color: var(--background-nav-list);
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-inline: 5px;
+    border-radius: 5px;
+}
+nav .login{
+    background-color: var(--background-nav-login);
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    
+}
+/*NAV ITEMS {TITULO, LIST Y LOGIN} GENERAL*/
+
+/*NAV ITEMS LIST UL Y LI GENERAL*/
+nav .list ul{
+    list-style: none;
+    display: inline-flex;
+    width: 100%;
+    padding: 0px;
+}
+
+nav .list ul li{
+    width: 33.3%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+/*NAV ITEMS LIST UL Y LI GENERAL*/
+
+/* SECCION DEL CUERPO DE PÁGINA */
+.slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-block: 5px;
+    
+    
+}
+
+.slider{
+    width: 100%;
+    height: 35vw;
+    /***** object-fit: cover; *****/
+    /* background-size: cover; */
+    /* background-image: url(img/food.jpg); */
+    /* background-position: top; */
+}
+
+.slider .texto{
+    position: absolute;
+    font-size: 24px;
+    color: fuchsia;
+}
+
+.slider .circle{
+    width: 100px;
+    height: 100px;
+    color: #000;
+    
+}
